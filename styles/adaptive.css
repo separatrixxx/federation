@@ -1,0 +1,232 @@
+@media (max-width: 1200px) {
+    .title {
+        font-size: 20px;
+        max-width: 400px;
+    }
+
+    footer > button {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .headerBlock1 > div,
+    .headerBlock2 > div {
+        width: 90%;
+    }
+
+    .headerBlock1 > div {
+        gap: 30px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .title {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .logosBlock {
+        gap: 10px;
+    }
+    
+    .logosBlock > div {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .headerBlock2 > div > div {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+
+    main {
+        padding: 25px 0;
+    }
+    
+    .mainBlock {
+        width: calc(90% - 20px);
+        padding: 30px 10px;
+        grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+        gap: 10px;
+    }
+    
+    .mainBlock > div {
+        height: 100px;
+    }
+
+    .page2MainBlock {
+        width: 90%;
+    }
+    
+    .sideBlock {
+        padding: 15px 0;
+        gap: 15px;
+    }
+    
+    .sideBlock > div {
+        font-size: 12px;
+        padding-right: 40px;
+    }
+    
+    .baseBlock {
+        height: 500px;
+    }
+    
+    footer > button {
+        height: 80px;
+        font-size: 12px;
+    }
+    
+    footer > p {
+         font-size: 12px;
+    }
+}
+
+@media (max-width: 580px) {
+    .headerBlock1 > div,
+    .headerBlock2 > div {
+        width: 100%;
+    }
+
+    .headerBlock1 > div {
+        padding: 15px 0;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .title {
+        font-size: 12px;
+        max-width: 200px;
+    }
+
+    .logosBlock {
+        margin-right: 20px;
+        gap: 7px;
+    }
+    
+    .logosBlock > div {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .headerBlock2 > div > div {
+        font-size: 10px;
+        padding: 15px 0;
+    }
+
+    main {
+        padding: 25px 0;
+    }
+    
+    .mainBlock {
+        width: calc(95% - 20px);
+        padding: 20px 10px;
+        grid-template-columns: auto;
+        gap: 10px;
+        justify-items: center;
+    }
+    
+    .mainBlock > div {
+        height: 120px;
+    }
+
+    .page2MainBlock {
+        width: 95%;
+        grid-template-columns: auto;
+    }
+    
+    .sideBlock {
+        width: 100%;
+        grid-template-columns: repeat(4, auto);
+        gap: 0;
+        padding: 0;
+    }
+    
+    .sideBlock > div {
+        font-size: 10px;
+        padding: 10px;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+    
+    .baseBlock {
+        height: 300px;
+    }
+
+    footer {
+        padding: 25px 0;
+        gap: 20px;
+    }
+    
+    footer > button {
+        width: 70%;
+        height: 60px;
+        font-size: 10px;
+    }
+    
+    footer > p {
+         font-size: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .headerBlock1 > div {
+        gap: 15px;
+        grid-template-areas: 
+            "a b"
+            "c c";
+    }
+
+    .logo {
+        grid-area: a;
+    }
+
+    .title {
+        font-size: 12px;
+        max-width: 200px;
+        grid-area: b;
+    }
+
+    .logosBlock {
+        margin-left: 20px;
+        gap: 7px;
+        grid-area: c;
+    }
+
+    .headerBlock2 > div {
+        grid-template-columns: repeat(3, auto);
+    }
+    
+    .headerBlock2 > div > div {
+        font-size: 10px;
+        padding: 15px 0;
+        border: 1px solid white;
+    }
+
+    .sideBlock {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    footer {
+        padding: 25px 0;
+        gap: 20px;
+        grid-template-areas: 
+            "c"
+            "."
+            ".";
+    }
+    
+    footer > button {
+        width: 85%;
+        height: 50px;
+    }
+}
